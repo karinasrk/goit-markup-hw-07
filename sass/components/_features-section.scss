@@ -1,0 +1,49 @@
+.feature-item .feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: $secondary-bgc-color;
+}
+
+.feature-icon .feature-img {
+  width: 70px;
+  height: 70px;
+}
+
+.feature-list {
+  @extend %list;
+  display: flex;
+}
+
+.feature-list .feature-item {
+  width: 270px;
+  height: 251px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.features .feature {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .feature-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $paragraph-text-color;
+}

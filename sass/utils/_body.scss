@@ -1,0 +1,20 @@
+.body {
+  color: $primary-text-color;
+  background-color: $primary-bgc-color;
+  font-family: $body-font;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
