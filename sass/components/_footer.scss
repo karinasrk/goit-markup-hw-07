@@ -1,0 +1,111 @@
+.footer {
+  background-color: $footer-color;
+}
+
+.footer-page {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+
+  color: $primary-white-color;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer .link-footer {
+  transition: color 250ms $timing-function;
+
+  color: $paragraph-text-color;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.join-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us .subscribe {
+  transition: color 250ms $timing-function,
+    background-color 250ms $timing-function;
+
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border-width: 0;
+
+  color: $primary-white-color;
+  background-color: $accent-color;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.join-email {
+  width: 358px;
+  margin-right: 12px;
+  padding: 15px;
+  background-color: $footer-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: $join-email-color;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.25;
+
+  &:focus {
+    color: $primary-white-color;
+  }
+}
+
+.send-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
+
+.footer .subscribe:hover,
+.footer .subscribe:focus {
+  color: $accent-color;
+  background-color: $primary-white-color;
+}
+
+.footer-page .join {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer .join {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.email-input {
+  padding: 0;
+  display: inline-flex;
+}
