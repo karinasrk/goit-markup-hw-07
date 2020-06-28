@@ -12,11 +12,28 @@ img {
 }
 
 .container {
-  width: 1200px;
-  padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
+  padding-right: 15px;
   margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .site-nav, .contact-nav, .feature-list, .projects-list, .socials-list, .team-list, .clients-list, .portfolio-list, .portfolio .radio-button {

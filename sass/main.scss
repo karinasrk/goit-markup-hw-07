@@ -1,7 +1,9 @@
 @import "./utils/variables";
 @import "./utils/body";
+@import "./utils/container";
+
 @import "./utils/placeholders";
-@import "./utils/buttons";
+@import "./components/buttons";
 @import "./components/logo";
 @import "./components/header";
 @import "./components/footer";
